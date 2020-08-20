@@ -1,0 +1,24 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/mono/Xamarin.Mac/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/mono/Xamarin.Mac/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/mono/Xamarin.Mac/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/mono/Xamarin.Mac/mscorlib.dll
+Function=SystemNative_MkDir
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/mono/Xamarin.Mac/mscorlib.dll
+Function=SystemNative_Stat2
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/mono/Xamarin.Mac/mscorlib.dll
+Function=SystemNative_LStat2
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/mono/Xamarin.Mac/mscorlib.dll
+Function=SystemNative_Unlink
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/mono/Xamarin.Mac/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/mono/Xamarin.Mac/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/mono/Xamarin.Mac/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/x86_64/mobile/Xamarin.Mac.dll
+Function=xamarin_get_block_descriptor
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/x86_64/mobile/Xamarin.Mac.dll

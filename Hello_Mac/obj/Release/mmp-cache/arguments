@@ -1,0 +1,26 @@
+# Version: 6.20.2.2 (d16-7): 817b6f72a
+/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/lib/mmp/mmp.exe \
+	/Library/Frameworks/Xamarin.Mac.framework/Versions/6.20.2.2/bin/../lib/mmp/mmp.exe \
+	'/target-framework:Xamarin.Mac,Version=v2.0,Profile=Mobile' \
+	--http-message-handler=HttpClientHandler \
+	--cache=/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Release/mmp-cache \
+	--root-assembly=/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.exe \
+	--sdkroot=/Applications/Xcode.app/Contents/Developer \
+	-q \
+	-q \
+	-q \
+	-q \
+	/output:/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/ \
+	/name:App \
+	/arch:x86_64 \
+	/minos=10.15 \
+	/linksdkonly \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/mscorlib.dll \
+	/assembly:/Users/Dimitrii/Documents/FirstDemo/packages/MvvmCross.7.0.0/lib/xamarinmac20/MvvmCross.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/OpenTK.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.Core.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/Facades/System.Drawing.Common.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/Xamarin.Mac.dll \
+	/assembly:/Users/Dimitrii/Documents/FirstDemo/packages/MvvmCross.7.0.0/lib/xamarinmac20/MvvmCross.dll \
+	@/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Release/response-file.rsp \

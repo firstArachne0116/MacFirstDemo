@@ -1,0 +1,6 @@
+objc[60765]: Class NCJSONTransformer is implemented in both /System/Library/Frameworks/NotificationCenter.framework/Versions/A/NotificationCenter (0x10a0617c8) and /System/Library/PrivateFrameworks/NotificationCenterUI.framework/Versions/A/NotificationCenterUI (0x1369ba628). One of the two will be used. Which one is undefined.
+objc[60765]: Class NCRemoteViewServiceContainerView is implemented in both /System/Library/Frameworks/NotificationCenter.framework/Versions/A/NotificationCenter (0x10a062358) and /System/Library/PrivateFrameworks/NotificationCenterUI.framework/Versions/A/NotificationCenterUI (0x1369ba650). One of the two will be used. Which one is undefined.
+objc[60765]: Class NCMaterialLayer is implemented in both /System/Library/Frameworks/NotificationCenter.framework/Versions/A/NotificationCenter (0x10a061818) and /System/Library/PrivateFrameworks/NotificationCenterUI.framework/Versions/A/NotificationCenterUI (0x1369ba8d0). One of the two will be used. Which one is undefined.
+Unable to create basic Accelerated OpenGL renderer.
+Unable to create basic Accelerated OpenGL renderer.
+Core Image is now using the software OpenGL renderer. This will be slow.

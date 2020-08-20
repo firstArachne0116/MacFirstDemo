@@ -1,0 +1,15 @@
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Debug/App.exe
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Debug/App.pdb
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/actool/_PartialAppManifest.items
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/ibtool-manifests/Main.storyboardc
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/ibtool/Main.storyboardc/0tM-ni-t3V-view-O1j-Ck-fMi.nib
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/ibtool/Main.storyboardc/MainMenu.nib
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/ibtool/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/ibtool/Main.storyboardc/NSViewController-0tM-ni-t3V.nib
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/FirstDemo.csproj.CoreCompileInputs.cache
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/App.exe
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/App.pdb
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/FirstDemo.csprojAssemblyReference.cache

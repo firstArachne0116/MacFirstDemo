@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{B40CCB20-5EBE-4DBF-A71F-D5A24E92548B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Hello__Mac PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hello_Mac/LoginDialogController.designer.cs">
+    <Files>
+      <File FileName="Hello_Mac/AppDelegate.cs" Line="24" Column="1" />
+      <File FileName="Hello_Mac/Main.cs" />
+      <File FileName="Hello_Mac/ViewController.designer.cs" />
+      <File FileName="Hello_Mac/Info.plist" />
+      <File FileName="Hello_Mac/LoginDialogController.cs" />
+      <File FileName="Hello_Mac/LoginDialogController.designer.cs" Line="21" Column="33" />
+      <File FileName="Hello_Mac/ViewController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hello_Mac" expanded="True" selected="True">
+            <Node name="Hello_Mac" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="LoginDialogController.cs" expanded="True" />
+              <Node name="ViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,89 @@
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a segv while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x108a639a6 - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : mono_dump_native_crash_info
+	0x108a57595 - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : mono_handle_native_crash
+	0x108ca50b7 - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : altstack_handle_and_restore.cold.1
+	0x1089d49ae - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : altstack_handle_and_restore
+	0x108a709f4 - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : common_call_trampoline
+	0x108a71d90 - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : mono_vcall_trampoline
+	0x11b4d2513 - Unknown
+	0x12c5ee5ba - Unknown
+	0x12c5ee1cb - Unknown
+	0x12c5eab1b - Unknown
+	0x12b297d21 - Unknown
+	0x108a6e2ce - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : mono_jit_runtime_invoke
+	0x108ba3368 - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : mono_runtime_invoke_checked
+	0x108ba7c3e - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : mono_runtime_invoke
+	0x108c9172d - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : _ZL30native_to_managed_trampoline_1P11objc_objectP13objc_selectorPP11_MonoMethodj
+	0x108ca41a4 - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : -[ViewController awakeFromNib]
+	0x10a04e327 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSIBObjectData nibInstantiateWithOwner:options:topLevelObjects:]
+	0x10a0d493a - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSNib _instantiateNibWithExternalNameTable:options:]
+	0x10a0d45be - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSNib _instantiateWithOwner:options:topLevelObjects:]
+	0x10a0d392f - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSViewController loadView]
+	0x10a0d3676 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSViewController _loadViewIfRequired]
+	0x10a0d35f3 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSViewController view]
+	0x10a2eeecf - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSWindow _contentViewControllerChanged]
+	0x10966cc43 - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation : -[NSObject(NSKeyValueCoding) setValue:forKey:]
+	0x10a32d5bb - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSWindow setValue:forKey:]
+	0x10a1199f8 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSIBUserDefinedRuntimeAttributesConnector establishConnection]
+	0x10a04e253 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSIBObjectData nibInstantiateWithOwner:options:topLevelObjects:]
+	0x10a0d493a - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSNib _instantiateNibWithExternalNameTable:options:]
+	0x10a0d45be - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSNib _instantiateWithOwner:options:topLevelObjects:]
+	0x10a876945 - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : -[NSStoryboard _instantiateControllerWithIdentifier:creator:storyboardSegueTemplate:sender:]
+	0x10a03341d - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit : NSApplicationMain
+	0x12b295508 - Unknown
+	0x12b295323 - Unknown
+	0x11b6f5df3 - Unknown
+	0x11b6f5ed1 - Unknown
+	0x108a6e2ce - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : mono_jit_runtime_invoke
+	0x108ba3368 - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : mono_runtime_invoke_checked
+	0x108baa695 - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : mono_runtime_exec_main_checked
+	0x1089ca73c - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : mono_jit_exec
+	0x1089cd836 - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : mono_main
+	0x1089827bc - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : xamarin_main
+	0x108983604 - /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MacOS/App : main
+	0x10ed437fd - /usr/lib/system/libdyld.dylib : start
+
+=================================================================
+	Telemetry Dumper:
+=================================================================
+Pkilling 0x123145348526080x from 0x4462697920x
+Could not exec mono-hang-watchdog, expected on path '/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Release/App.app/Contents/MonoBundle/../bin/mono-hang-watchdog' (errno 2)
+Entering thread summarizer pause from 0x4462697920x
+Finished thread summarizer pause from 0x4462697920x.
+Failed to create breadcrumb file (null)/crash_hash_0x4ad9865f5
+
+Waiting for dumping threads to resume
+
+=================================================================
+	Basic Fault Address Reporting
+=================================================================
+Memory around native instruction pointer (0x108a709f4):0x108a709e4  48 8d 15 25 26 32 00 48 3b 8a 10 01 00 00 74 34  H..%&2.H;.....t4
+0x108a709f4  41 f6 45 21 10 4c 8b 55 c8 0f 85 c8 00 00 00 31  A.E!.L.U.......1
+0x108a70a04  c0 48 89 45 b8 4c 8b 65 b0 e9 41 01 00 00 31 c9  .H.E.L.e..A...1.
+0x108a70a14  4c 89 e0 4c 89 65 80 4d 89 f5 45 84 ff 75 27 e9  L..L.e.M..E..u'.
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at AppKit.NSOutlineView:set_DataSource <0x00139>
+	  at Hello_Mac.SourceListView:Initialize <0x0007a>
+	  at Hello_Mac.ViewController:AwakeFromNib <0x0050a>
+	  at System.Object:runtime_invoke_void__this__ <0x000b0>
+	  at <unknown> <0xffffffff>
+	  at AppKit.NSApplication:NSApplicationMain <0x001a7>
+	  at AppKit.NSApplication:Main <0x00112>
+	  at Hello_Mac.MainClass:Main <0x00052>
+	  at <Module>:runtime_invoke_void_object <0x000b0>
+=================================================================

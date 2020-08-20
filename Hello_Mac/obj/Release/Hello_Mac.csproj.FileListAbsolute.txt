@@ -1,0 +1,15 @@
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/actool/_PartialAppManifest.items
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/actool/_BundleResourceWithLogicalName.items
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/ibtool-manifests/Main.storyboardc
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/ibtool/Main.storyboardc/MainMenu.nib
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/ibtool/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/ibtool/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/ibtool/Main.storyboardc/Info.plist
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/Hello_Mac.csproj.CoreCompileInputs.cache
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/Hello_Mac.csprojAssemblyReference.cache
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/bin/Release/App.exe
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/bin/Release/App.pdb
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/App.exe
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/App.pdb
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/ibtool/Main.storyboardc/0tM-ni-t3V-view-O1j-Ck-fMi.nib
+/Users/Dimitrii/Projects/Hello_Mac/Hello_Mac/obj/Release/ibtool/Main.storyboardc/NSViewController-0tM-ni-t3V.nib
