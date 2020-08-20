@@ -1,14 +1,14 @@
 --debug
 /target-framework:Xamarin.Mac,Version=v2.0,Profile=Mobile
 --http-message-handler=HttpClientHandler
---cache=/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/mmp-cache
---root-assembly=/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Debug/App.exe
+--cache=/Users/Dimitrii/Documents/mac/MacFirstDemo/Hello_Mac/obj/Debug/mmp-cache
+--root-assembly=/Users/Dimitrii/Documents/mac/MacFirstDemo/Hello_Mac/bin/Debug/App.exe
 --sdkroot=/Applications/Xcode.app/Contents/Developer
 -q
 -q
 -q
 -q
-/output:/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/bin/Debug/
+/output:/Users/Dimitrii/Documents/mac/MacFirstDemo/Hello_Mac/bin/Debug/
 /name:App
 /arch:x86_64
 /minos=10.15

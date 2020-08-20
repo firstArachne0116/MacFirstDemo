@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEDB1DAA0000000000000000 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD36E60000000000000000 /* Cocoa.framework */; };
+		80574F4F0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779688B00000000000000000 /* Foundation.framework */; };
+		B0F1A5130000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3813BE4F0000000000000000 /* Assets.xcassets */; };
+		8DDCE4E10000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14FEFE1D0000000000000000 /* Info.plist */; };
+		2F7288140000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = B694A1500000000000000000 /* Entitlements.plist */; };
+		D1082B470000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582A44830000000000000000 /* Main.storyboard */; };
+		A63B93DF0000000000000000 /* .DS_Store in Resources */ = {isa = PBXBuildFile; fileRef = 2D5DAD1B0000000000000000 /* .DS_Store */; };
+		4192A6270000000000000000 /* SourceListView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B4BF630000000000000000 /* SourceListView.m */; };
+		7679BA150000000000000000 /* LoginDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9BD3510000000000000000 /* LoginDialogController.m */; };
+		F9721D5F0000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8094369B0000000000000000 /* ViewController.m */; };
+		8750899F0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E72A2DB00000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93482F750000000000000000 /* FirstDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "FirstDemo.app"; path = "FirstDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD36E60000000000000000 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "System/Library/Frameworks/Cocoa.framework"; sourceTree = SDKROOT; };
+		779688B00000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		3813BE4F0000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		14FEFE1D0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		B694A1500000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		582A44830000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		2D5DAD1B0000000000000000 /* .DS_Store */ = {isa = PBXFileReference; name = ".DS_Store"; path = ".DS_Store"; sourceTree = "<group>"; };
+		73E71D030000000000000000 /* SourceListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SourceListView.h"; path = "SourceLists/SourceListView.h"; sourceTree = "<group>"; };
+		C8B4BF630000000000000000 /* SourceListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SourceListView.m"; path = "SourceLists/SourceListView.m"; sourceTree = "<group>"; };
+		5C06301E0000000000000000 /* LoginDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoginDialogController.h"; path = "LoginDialogController.h"; sourceTree = "<group>"; };
+		FD9BD3510000000000000000 /* LoginDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LoginDialogController.m"; path = "LoginDialogController.m"; sourceTree = "<group>"; };
+		BF1804F60000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
+		8094369B0000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
+		47836CBB0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		E72A2DB00000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E01030480000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDB1DAA0000000000000000 /* Cocoa.framework in Frameworks */,
+				80574F4F0000000000000000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558FED8A0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				B1E56F5E0000000000000000 /* FirstDemo */,
+				27652CA00000000000000000 /* Frameworks */,
+				83BAAE740000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83BAAE740000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93482F750000000000000000 /* FirstDemo.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		27652CA00000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				779688B00000000000000000 /* Foundation.framework */,
+				45FD36E60000000000000000 /* Cocoa.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		B1E56F5E0000000000000000 /* FirstDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2D5DAD1B0000000000000000 /* .DS_Store */,
+				47836CBB0000000000000000 /* AppDelegate.h */,
+				E72A2DB00000000000000000 /* AppDelegate.m */,
+				3813BE4F0000000000000000 /* Assets.xcassets */,
+				B694A1500000000000000000 /* Entitlements.plist */,
+				14FEFE1D0000000000000000 /* Info.plist */,
+				5C06301E0000000000000000 /* LoginDialogController.h */,
+				FD9BD3510000000000000000 /* LoginDialogController.m */,
+				582A44830000000000000000 /* Main.storyboard */,
+				BF1804F60000000000000000 /* ViewController.h */,
+				8094369B0000000000000000 /* ViewController.m */,
+				DB22A7CD0000000000000000 /* SourceLists */,
+			);
+			name = "FirstDemo";
+			sourceTree = "<group>";
+		};
+		DB22A7CD0000000000000000 /* SourceLists */ = {
+			isa = PBXGroup;
+			children = (
+				73E71D030000000000000000 /* SourceListView.h */,
+				C8B4BF630000000000000000 /* SourceListView.m */,
+			);
+			name = "SourceLists";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A3765950000000000000000 /* FirstDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE1E3C10000000000000000 /* Build configuration list for PBXNativeTarget "FirstDemo" */;
+			buildPhases = (
+				C387CB580000000000000000 /* Sources */,
+				E01030480000000000000000 /* Frameworks */,
+				D1CBFDD00000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FirstDemo";
+			productName = "FirstDemo";
+			productReference = 93482F750000000000000000 /* FirstDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2699A0300000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 2C0CA4AB0000000000000000 /* Build configuration list for PBXProject "FirstDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 558FED8A0000000000000000;
+			productRefGroup = 83BAAE740000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A3765950000000000000000 /* FirstDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1CBFDD00000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0F1A5130000000000000000 /* Assets.xcassets in Resources */,
+				8DDCE4E10000000000000000 /* Info.plist in Resources */,
+				2F7288140000000000000000 /* Entitlements.plist in Resources */,
+				D1082B470000000000000000 /* Main.storyboard in Resources */,
+				A63B93DF0000000000000000 /* .DS_Store in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C387CB580000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4192A6270000000000000000 /* SourceListView.m in Sources */,
+				7679BA150000000000000000 /* LoginDialogController.m in Sources */,
+				F9721D5F0000000000000000 /* ViewController.m in Sources */,
+				8750899F0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB347B300000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABDD4DFA0000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E69755E70000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DreamTech.Hello-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11E1AF680000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DreamTech.Hello-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C0CA4AB0000000000000000 /* Build configuration list for PBXProject "FirstDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB347B300000000000000000 /* Debug */,
+				ABDD4DFA0000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FDE1E3C10000000000000000 /* Build configuration list for PBXNativeTarget "FirstDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E69755E70000000000000000 /* Debug */,
+				11E1AF680000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2699A0300000000000000000 /* Project object */;
+}

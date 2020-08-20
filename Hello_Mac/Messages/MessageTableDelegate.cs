@@ -67,6 +67,7 @@ namespace Hello_Mac
 
             return view;
         }
+
         #endregion
     }
 }

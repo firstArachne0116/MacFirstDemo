@@ -50,7 +50,8 @@ namespace Hello_Mac
 
             FollowList.Initialize();
 
-            FollowList.RowSizeStyle = NSTableViewRowSizeStyle.Large;
+            FollowList.RowSizeStyle = NSTableViewRowSizeStyle.Custom;
+            FollowList.RowHeight = 45;
 
             var followItems = new SourceListItem("フォロー一覧");
             followItems.AddItem("フォロー1", "https://randomuser.me/api/portraits/men/1.jpg");
@@ -66,7 +67,8 @@ namespace Hello_Mac
 
             LikeList.Initialize();
 
-            LikeList.RowSizeStyle = NSTableViewRowSizeStyle.Large;
+            LikeList.RowSizeStyle = NSTableViewRowSizeStyle.Custom;
+            LikeList.RowHeight = 45;
 
             var likeItems = new SourceListItem("いいね一覧");
             likeItems.AddItem("フォロワー1", "https://randomuser.me/api/portraits/men/6.jpg");
@@ -83,7 +85,8 @@ namespace Hello_Mac
 
             BlackList.Initialize();
 
-            BlackList.RowSizeStyle = NSTableViewRowSizeStyle.Large;
+            BlackList.RowSizeStyle = NSTableViewRowSizeStyle.Custom;
+            BlackList.RowHeight = 45;
 
             var blackItems = new SourceListItem("解除候補一覧");
             blackItems.AddItem("フォロワー1", "https://randomuser.me/api/portraits/men/11.jpg");

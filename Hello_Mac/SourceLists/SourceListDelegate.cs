@@ -73,10 +73,8 @@ namespace Hello_Mac
 			// Is this a group item?
 			if (((SourceListItem)item).HasChildren) {
 				view = (NSTableCellView)outlineView.MakeView ("HeaderCell", this);
-				view.RowSizeStyle = NSTableViewRowSizeStyle.Large;
 			} else {
-				view = (NSTableCellView)outlineView.MakeView ("DataCell", this);
-				view.RowSizeStyle = NSTableViewRowSizeStyle.Large;
+				view = (NSTableCellView)outlineView.MakeView ("DataCell", this);;
 				view.ImageView.Image = ((SourceListItem)item).Icon;
 				view.ImageView = new NSImageView(new CoreGraphics.CGRect(50, 0, 20, 20));
 				view.ImageView.Image = ((SourceListItem)item).Icon;
