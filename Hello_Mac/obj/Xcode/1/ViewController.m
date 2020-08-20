@@ -9,7 +9,10 @@
 
 @implementation ViewController
 
+@synthesize BlackList = _BlackList;
 @synthesize DateColumn = _DateColumn;
+@synthesize FollowList = _FollowList;
+@synthesize LikeList = _LikeList;
 @synthesize MessageColumn = _MessageColumn;
 @synthesize MessageTable = _MessageTable;
 @synthesize SectionColumn = _SectionColumn;

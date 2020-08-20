@@ -9,7 +9,7 @@
 /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/ibtool/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
 /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/ibtool/Main.storyboardc/NSViewController-0tM-ni-t3V.nib
 /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/ibtool/Main.storyboardc/Info.plist
+/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/FirstDemo.csprojAssemblyReference.cache
 /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/FirstDemo.csproj.CoreCompileInputs.cache
 /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/App.exe
 /Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/App.pdb
-/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/FirstDemo.csprojAssemblyReference.cache

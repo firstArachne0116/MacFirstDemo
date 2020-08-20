@@ -1,22 +1,26 @@
 ﻿<Properties StartupConfiguration="{B40CCB20-5EBE-4DBF-A71F-D5A24E92548B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Hello_Mac/SourceLists/SourceListItem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hello_Mac/Messages/MessageTableDelegate.cs">
     <Files>
-      <File FileName="Hello_Mac/ViewController.cs" Line="63" Column="47" />
-      <File FileName="Hello_Mac/ViewController.designer.cs" Line="19" Column="27" />
+      <File FileName="Hello_Mac/ViewController.cs" Line="67" Column="35" />
+      <File FileName="Hello_Mac/ViewController.designer.cs" />
+      <File FileName="Hello_Mac/SourceLists/SourceListView.cs" />
+      <File FileName="Hello_Mac/SourceLists/SourceListItem.cs" />
+      <File FileName="Hello_Mac/SourceLists/SourceListDelegate.cs" Line="106" Column="33" />
       <File FileName="Hello_Mac/Main.storyboard" Line="1" Column="1" />
-      <File FileName="Hello_Mac/Main.cs" Line="10" Column="1" />
-      <File FileName="Hello_Mac/SourceLists/SourceListView.cs" Line="72" Column="31" />
-      <File FileName="Hello_Mac/SourceLists/SourceListItem.cs" Line="25" Column="27" />
+      <File FileName="Hello_Mac/LoginDialogController.cs" Line="1" Column="1" />
+      <File FileName="Hello_Mac/SourceLists/SourceListDataSource.cs" Line="1" Column="1" />
+      <File FileName="Hello_Mac/Messages/MessageTableDelegate.cs" Line="29" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FirstDemo" expanded="True">
             <Node name="FirstDemo" expanded="True">
-              <Node name="Messages" expanded="True" />
-              <Node name="SourceLists" expanded="True">
-                <Node name="SourceListItem.cs" selected="True" />
+              <Node name="Messages" expanded="True">
+                <Node name="MessageTableDelegate.cs" selected="True" />
               </Node>
+              <Node name="SourceLists" expanded="True" />
+              <Node name="AppDelegate.cs" expanded="True" />
               <Node name="ViewController.cs" expanded="True" />
             </Node>
           </Node>

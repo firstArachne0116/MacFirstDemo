@@ -13,10 +13,16 @@ namespace Hello_Mac
 	partial class ViewController
 	{
 		[Outlet]
+		Hello_Mac.SourceListView BlackList { get; set; }
+
+		[Outlet]
 		AppKit.NSTableColumn DateColumn { get; set; }
 
 		[Outlet]
 		Hello_Mac.SourceListView FollowList { get; set; }
+
+		[Outlet]
+		Hello_Mac.SourceListView LikeList { get; set; }
 
 		[Outlet]
 		AppKit.NSTableColumn MessageColumn { get; set; }
@@ -34,6 +40,11 @@ namespace Hello_Mac
 				DateColumn = null;
 			}
 
+			if (FollowList != null) {
+				FollowList.Dispose ();
+				FollowList = null;
+			}
+
 			if (MessageColumn != null) {
 				MessageColumn.Dispose ();
 				MessageColumn = null;
@@ -49,9 +60,14 @@ namespace Hello_Mac
 				SectionColumn = null;
 			}
 
-			if (FollowList != null) {
-				FollowList.Dispose ();
-				FollowList = null;
+			if (LikeList != null) {
+				LikeList.Dispose ();
+				LikeList = null;
+			}
+
+			if (BlackList != null) {
+				BlackList.Dispose ();
+				BlackList = null;
 			}
 		}
 	}

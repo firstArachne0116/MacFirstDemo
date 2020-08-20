@@ -7,16 +7,27 @@
 
 #import <Foundation/Foundation.h>
 #import <AppKit/AppKit.h>
+#import <Hello_Mac/Hello_Mac.h>
 
+#import "SourceLists/SourceListView.h"
 
 @interface ViewController : NSViewController {
+	SourceListView *_BlackList;
 	NSTableColumn *_DateColumn;
+	SourceListView *_FollowList;
+	SourceListView *_LikeList;
 	NSTableColumn *_MessageColumn;
 	NSTableView *_MessageTable;
 	NSTableColumn *_SectionColumn;
 }
 
+@property (nonatomic, retain) IBOutlet SourceListView *BlackList;
+
 @property (nonatomic, retain) IBOutlet NSTableColumn *DateColumn;
+
+@property (nonatomic, retain) IBOutlet SourceListView *FollowList;
+
+@property (nonatomic, retain) IBOutlet SourceListView *LikeList;
 
 @property (nonatomic, retain) IBOutlet NSTableColumn *MessageColumn;
 

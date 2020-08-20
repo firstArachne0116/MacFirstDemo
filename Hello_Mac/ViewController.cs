@@ -50,17 +50,52 @@ namespace Hello_Mac
 
             FollowList.Initialize();
 
-            var library = new SourceListItem("Library");
-            library.AddItem("フォロー1", "https://randomuser.me/api/portraits/men/1.jpg");
-            library.AddItem("フォロー2", "https://randomuser.me/api/portraits/men/2.jpg");
-            library.AddItem("フォロー3", "https://randomuser.me/api/portraits/men/3.jpg");
-            library.AddItem("フォロー4", "https://randomuser.me/api/portraits/men/4.jpg");
-            library.AddItem("フォロー5", "https://randomuser.me/api/portraits/men/5.jpg");
-            FollowList.AddItem(library);
+            FollowList.RowSizeStyle = NSTableViewRowSizeStyle.Large;
+
+            var followItems = new SourceListItem("フォロー一覧");
+            followItems.AddItem("フォロー1", "https://randomuser.me/api/portraits/men/1.jpg");
+            followItems.AddItem("フォロー2", "https://randomuser.me/api/portraits/men/2.jpg");
+            followItems.AddItem("フォロー3", "https://randomuser.me/api/portraits/men/3.jpg");
+            followItems.AddItem("フォロー4", "https://randomuser.me/api/portraits/men/4.jpg");
+            followItems.AddItem("フォロー5", "https://randomuser.me/api/portraits/men/5.jpg");
+            FollowList.AddItem(followItems);
 
             // Display side list
             FollowList.ReloadData();
             FollowList.ExpandItem(null, true);
+
+            LikeList.Initialize();
+
+            LikeList.RowSizeStyle = NSTableViewRowSizeStyle.Large;
+
+            var likeItems = new SourceListItem("いいね一覧");
+            likeItems.AddItem("フォロワー1", "https://randomuser.me/api/portraits/men/6.jpg");
+            likeItems.AddItem("フォロワー2", "https://randomuser.me/api/portraits/men/7.jpg");
+            likeItems.AddItem("フォロワー3", "https://randomuser.me/api/portraits/men/8.jpg");
+            likeItems.AddItem("フォロワー4", "https://randomuser.me/api/portraits/men/9.jpg");
+            likeItems.AddItem("フォロワー5", "https://randomuser.me/api/portraits/men/10.jpg");
+            LikeList.AddItem(likeItems);
+
+            // Display side list
+            LikeList.ReloadData();
+            LikeList.ExpandItem(null, true);
+
+
+            BlackList.Initialize();
+
+            BlackList.RowSizeStyle = NSTableViewRowSizeStyle.Large;
+
+            var blackItems = new SourceListItem("解除候補一覧");
+            blackItems.AddItem("フォロワー1", "https://randomuser.me/api/portraits/men/11.jpg");
+            blackItems.AddItem("フォロワー2", "https://randomuser.me/api/portraits/men/12.jpg");
+            blackItems.AddItem("フォロワー3", "https://randomuser.me/api/portraits/men/13.jpg");
+            blackItems.AddItem("フォロワー4", "https://randomuser.me/api/portraits/men/14.jpg");
+            blackItems.AddItem("フォロワー5", "https://randomuser.me/api/portraits/men/15.jpg");
+            BlackList.AddItem(blackItems);
+
+            // Display side list
+            BlackList.ReloadData();
+            BlackList.ExpandItem(null, true);
         }
     }
 }

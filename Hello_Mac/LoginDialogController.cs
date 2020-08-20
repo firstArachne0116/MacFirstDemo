@@ -11,6 +11,7 @@ namespace Hello_Mac
 	{
 		#region Private Variables
 		private NSViewController _presentor;
+		private static bool firstTime = true;
 		#endregion
 
 		#region Application Access
@@ -53,14 +54,14 @@ namespace Hello_Mac
 		#region Custom Actions
 		partial void AcceptDialog(Foundation.NSObject sender)
 		{
-			RaiseDialogAccepted();
 			CloseDialog();
+			RaiseDialogAccepted();
 		}
 
 		partial void CancelDialog(Foundation.NSObject sender)
 		{
 			RaiseDialogCanceled();
-			CloseDialog();
+			NSApplication.SharedApplication.Terminate(this);
 		}
 		#endregion
 
