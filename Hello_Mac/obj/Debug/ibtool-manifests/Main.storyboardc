@@ -81,24 +81,99 @@
 				<integer>13</integer>
 			</dict>
 		</array>
-		<key>pxb-ZF-Pjm</key>
+	</dict>
+	<key>com.apple.ibtool.document.warnings</key>
+	<dict>
+		<key>6hK-lf-LpR</key>
 		<array>
 			<dict>
 				<key>affected-objects</key>
 				<array>
-					<string>pxb-ZF-Pjm</string>
+					<string>6hK-lf-LpR</string>
 				</array>
 				<key>message</key>
-				<string>View is clipping its content</string>
+				<string>Image scaling property set (A checkbox image should always appear at the standard size)</string>
 				<key>type</key>
-				<string>IBIssueTypeClippedContent</string>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
 				<key>type-value</key>
-				<integer>13</integer>
+				<integer>9</integer>
 			</dict>
 		</array>
-	</dict>
-	<key>com.apple.ibtool.document.warnings</key>
-	<dict>
+		<key>8tC-uv-duq</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>8tC-uv-duq</string>
+				</array>
+				<key>message</key>
+				<string>Image scaling property set (A checkbox image should always appear at the standard size)</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>9Lz-Xx-E43</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>9Lz-Xx-E43</string>
+				</array>
+				<key>message</key>
+				<string>Image scaling property set (A checkbox image should always appear at the standard size)</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>B88-8G-UmI</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>B88-8G-UmI</string>
+				</array>
+				<key>message</key>
+				<string>???Window Controller??? is unreachable because it has no entry points, and no identifier for runtime access via -[NSStoryboard instantiateControllerWithIdentifier:]</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>Lxr-Ts-Zdt</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>Lxr-Ts-Zdt</string>
+				</array>
+				<key>message</key>
+				<string>Image scaling property set (A checkbox image should always appear at the standard size)</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>QZC-kF-Bqn</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>QZC-kF-Bqn</string>
+				</array>
+				<key>message</key>
+				<string>Image scaling property set (A checkbox image should always appear at the standard size)</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
 		<key>RBY-al-Cvk</key>
 		<array>
 			<dict>
@@ -114,12 +189,12 @@
 				<integer>9</integer>
 			</dict>
 		</array>
-		<key>VGw-lx-4WL</key>
+		<key>VXJ-qb-nAr</key>
 		<array>
 			<dict>
 				<key>affected-objects</key>
 				<array>
-					<string>VGw-lx-4WL</string>
+					<string>VXJ-qb-nAr</string>
 				</array>
 				<key>message</key>
 				<string>Image scaling property set (A checkbox image should always appear at the standard size)</string>
@@ -129,12 +204,12 @@
 				<integer>9</integer>
 			</dict>
 		</array>
-		<key>eHu-xi-wrV</key>
+		<key>bFl-yd-EW7</key>
 		<array>
 			<dict>
 				<key>affected-objects</key>
 				<array>
-					<string>eHu-xi-wrV</string>
+					<string>bFl-yd-EW7</string>
 				</array>
 				<key>message</key>
 				<string>Image scaling property set (A checkbox image should always appear at the standard size)</string>
@@ -144,12 +219,12 @@
 				<integer>9</integer>
 			</dict>
 		</array>
-		<key>gUx-C3-ire</key>
+		<key>eVP-zx-g5i</key>
 		<array>
 			<dict>
 				<key>affected-objects</key>
 				<array>
-					<string>gUx-C3-ire</string>
+					<string>eVP-zx-g5i</string>
 				</array>
 				<key>message</key>
 				<string>Image scaling property set (A checkbox image should always appear at the standard size)</string>
@@ -159,12 +234,27 @@
 				<integer>9</integer>
 			</dict>
 		</array>
-		<key>s44-QM-78c</key>
+		<key>j87-fs-NPu</key>
 		<array>
 			<dict>
 				<key>affected-objects</key>
 				<array>
-					<string>s44-QM-78c</string>
+					<string>j87-fs-NPu</string>
+				</array>
+				<key>message</key>
+				<string>Image scaling property set (A checkbox image should always appear at the standard size)</string>
+				<key>type</key>
+				<string>IBIssueTypeUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>uAF-Da-btb</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>uAF-Da-btb</string>
 				</array>
 				<key>message</key>
 				<string>Image scaling property set (A checkbox image should always appear at the standard size)</string>

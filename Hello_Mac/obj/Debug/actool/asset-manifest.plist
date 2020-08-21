@@ -6,9 +6,9 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/actool/bundle/AppIcon.icns</string>
-			<string>/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/actool/bundle/Assets.car</string>
-			<string>/Users/Dimitrii/Documents/FirstDemo/Hello_Mac/obj/Debug/actool/partial-info.plist</string>
+			<string>/Users/firstarachne/Documents/MacFirstDemo/Hello_Mac/obj/Debug/actool/bundle/AppIcon.icns</string>
+			<string>/Users/firstarachne/Documents/MacFirstDemo/Hello_Mac/obj/Debug/actool/bundle/Assets.car</string>
+			<string>/Users/firstarachne/Documents/MacFirstDemo/Hello_Mac/obj/Debug/actool/partial-info.plist</string>
 		</array>
 	</dict>
 </dict>

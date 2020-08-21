@@ -11,9 +11,15 @@ namespace Hello_Mac
 {
 	partial class AppDelegate
 	{
+		[Outlet]
+		AppKit.NSMenu MainMenu { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (MainMenu != null) {
+				MainMenu.Dispose ();
+				MainMenu = null;
+			}
 		}
 	}
 }

@@ -13,16 +13,25 @@ namespace Hello_Mac
 	partial class ViewController
 	{
 		[Outlet]
-		Hello_Mac.SourceListView BlackList { get; set; }
+		AppKit.NSTableView BlackList { get; set; }
 
 		[Outlet]
 		AppKit.NSTableColumn DateColumn { get; set; }
 
 		[Outlet]
-		Hello_Mac.SourceListView FollowList { get; set; }
+		AppKit.NSTableView FollowList { get; set; }
 
 		[Outlet]
-		Hello_Mac.SourceListView LikeList { get; set; }
+		AppKit.NSTextField interval { get; set; }
+
+		[Outlet]
+		AppKit.NSTableView LikeList { get; set; }
+
+		[Outlet]
+		AppKit.NSTextField maxAutomatic { get; set; }
+
+		[Outlet]
+		AppKit.NSTextField maxCancel { get; set; }
 
 		[Outlet]
 		AppKit.NSTableColumn MessageColumn { get; set; }
@@ -35,6 +44,11 @@ namespace Hello_Mac
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (BlackList != null) {
+				BlackList.Dispose ();
+				BlackList = null;
+			}
+
 			if (DateColumn != null) {
 				DateColumn.Dispose ();
 				DateColumn = null;
@@ -43,6 +57,11 @@ namespace Hello_Mac
 			if (FollowList != null) {
 				FollowList.Dispose ();
 				FollowList = null;
+			}
+
+			if (LikeList != null) {
+				LikeList.Dispose ();
+				LikeList = null;
 			}
 
 			if (MessageColumn != null) {
@@ -60,14 +79,19 @@ namespace Hello_Mac
 				SectionColumn = null;
 			}
 
-			if (LikeList != null) {
-				LikeList.Dispose ();
-				LikeList = null;
+			if (interval != null) {
+				interval.Dispose ();
+				interval = null;
 			}
 
-			if (BlackList != null) {
-				BlackList.Dispose ();
-				BlackList = null;
+			if (maxAutomatic != null) {
+				maxAutomatic.Dispose ();
+				maxAutomatic = null;
+			}
+
+			if (maxCancel != null) {
+				maxCancel.Dispose ();
+				maxCancel = null;
 			}
 		}
 	}

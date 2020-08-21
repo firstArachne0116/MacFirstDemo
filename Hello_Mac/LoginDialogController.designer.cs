@@ -12,6 +12,15 @@ namespace Hello_Mac
 	[Register ("LoginDialogController")]
 	partial class LoginDialogController
 	{
+		[Outlet]
+		AppKit.NSButton AcceptButton { get; set; }
+
+		[Outlet]
+		AppKit.NSTextField email { get; set; }
+
+		[Outlet]
+		AppKit.NSSecureTextField password { get; set; }
+
 		[Action ("AcceptDialog:")]
 		partial void AcceptDialog (Foundation.NSObject sender);
 
@@ -20,6 +29,20 @@ namespace Hello_Mac
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (email != null) {
+				email.Dispose ();
+				email = null;
+			}
+
+			if (password != null) {
+				password.Dispose ();
+				password = null;
+			}
+
+			if (AcceptButton != null) {
+				AcceptButton.Dispose ();
+				AcceptButton = null;
+			}
 		}
 	}
 }

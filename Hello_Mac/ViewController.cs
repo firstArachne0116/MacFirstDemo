@@ -11,11 +11,55 @@ namespace Hello_Mac
         {
         }
 
+        private string toNumberString(string str)
+        {
+            string newStr = "";
+            for (int i = 0; i < str.Length; i++)
+            {
+                if ('0' <= str[i] && str[i] <= '9')
+                {
+                    newStr += str[i];
+                }
+            }
+            if (newStr.Length == 0) newStr = "0";
+
+            return newStr;
+        }
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
 
             // Do any additional setup after loading the view.
+
+            AppDelegate appDelegate = NSApplication.SharedApplication.Delegate as AppDelegate;
+            appDelegate.EnableMenu();
+
+            interval.Changed += (sender, e) =>
+            {
+                string str = interval.StringValue;
+                string newStr = toNumberString(str);
+                int num = Convert.ToInt32(newStr);
+                if (num < 10) num = 10;
+                if (num > 300) num = 300;
+                newStr = Convert.ToString(num);
+                if (newStr != str)
+                    interval.StringValue = newStr;
+            };
+            maxAutomatic.Changed += (sender, e) =>
+            {
+                string str = maxAutomatic.StringValue;
+                string newStr = toNumberString(str);
+                if (newStr != str)
+                    maxAutomatic.StringValue = newStr;
+            };
+            maxCancel.Changed += (sender, e) =>
+            {
+                string str = maxCancel.StringValue;
+                string newStr = toNumberString(str);
+                if (newStr != str)
+                    maxCancel.StringValue = newStr;
+            };
         }
 
         public override NSObject RepresentedObject
@@ -48,57 +92,48 @@ namespace Hello_Mac
             // Auto select the first row
             MessageTable.SelectRow(0, false);
 
-            FollowList.Initialize();
+            var FollowDataSource = new MyListDataSource();
+            FollowDataSource.ListItems.Add(new MyListItem("フォロー一覧"));
+            FollowDataSource.ListItems.Add(new MyListItem("フォロー1", "https://randomuser.me/api/portraits/men/1.jpg"));
+            FollowDataSource.ListItems.Add(new MyListItem("フォロー2", "https://randomuser.me/api/portraits/men/2.jpg"));
+            FollowDataSource.ListItems.Add(new MyListItem("フォロー3", "https://randomuser.me/api/portraits/men/3.jpg"));
+            FollowDataSource.ListItems.Add(new MyListItem("フォロー4", "https://randomuser.me/api/portraits/men/4.jpg"));
+            FollowDataSource.ListItems.Add(new MyListItem("フォロー5", "https://randomuser.me/api/portraits/men/5.jpg"));
 
-            FollowList.RowSizeStyle = NSTableViewRowSizeStyle.Custom;
-            FollowList.RowHeight = 45;
+            if (FollowList != null)
+            {
+                FollowList.DataSource = FollowDataSource;
+                FollowList.Delegate = new MyListDelegate(FollowDataSource);
+            }
 
-            var followItems = new SourceListItem("フォロー一覧");
-            followItems.AddItem("フォロー1", "https://randomuser.me/api/portraits/men/1.jpg");
-            followItems.AddItem("フォロー2", "https://randomuser.me/api/portraits/men/2.jpg");
-            followItems.AddItem("フォロー3", "https://randomuser.me/api/portraits/men/3.jpg");
-            followItems.AddItem("フォロー4", "https://randomuser.me/api/portraits/men/4.jpg");
-            followItems.AddItem("フォロー5", "https://randomuser.me/api/portraits/men/5.jpg");
-            FollowList.AddItem(followItems);
+            var LikeDataSource = new MyListDataSource();
+            LikeDataSource.ListItems.Add(new MyListItem("いいね一覧"));
+            LikeDataSource.ListItems.Add(new MyListItem("フォロワー1", "https://randomuser.me/api/portraits/men/6.jpg"));
+            LikeDataSource.ListItems.Add(new MyListItem("フォロワー2", "https://randomuser.me/api/portraits/men/7.jpg"));
+            LikeDataSource.ListItems.Add(new MyListItem("フォロワー3", "https://randomuser.me/api/portraits/men/8.jpg"));
+            LikeDataSource.ListItems.Add(new MyListItem("フォロワー4", "https://randomuser.me/api/portraits/men/9.jpg"));
+            LikeDataSource.ListItems.Add(new MyListItem("フォロワー5", "https://randomuser.me/api/portraits/men/10.jpg"));
 
-            // Display side list
-            FollowList.ReloadData();
-            FollowList.ExpandItem(null, true);
+            if (LikeList != null)
+            {
+                LikeList.DataSource = LikeDataSource;
+                LikeList.Delegate = new MyListDelegate(LikeDataSource);
+            }
 
-            LikeList.Initialize();
+            var BlackDataSource = new MyListDataSource();
+            BlackDataSource.ListItems.Add(new MyListItem("解除候補一覧"));
+            BlackDataSource.ListItems.Add(new MyListItem("フォロワー1", "https://randomuser.me/api/portraits/men/11.jpg"));
+            BlackDataSource.ListItems.Add(new MyListItem("フォロワー2", "https://randomuser.me/api/portraits/men/12.jpg"));
+            BlackDataSource.ListItems.Add(new MyListItem("フォロワー3", "https://randomuser.me/api/portraits/men/13.jpg"));
+            BlackDataSource.ListItems.Add(new MyListItem("フォロワー4", "https://randomuser.me/api/portraits/men/14.jpg"));
+            BlackDataSource.ListItems.Add(new MyListItem("フォロワー5", "https://randomuser.me/api/portraits/men/15.jpg"));
 
-            LikeList.RowSizeStyle = NSTableViewRowSizeStyle.Custom;
-            LikeList.RowHeight = 45;
-
-            var likeItems = new SourceListItem("いいね一覧");
-            likeItems.AddItem("フォロワー1", "https://randomuser.me/api/portraits/men/6.jpg");
-            likeItems.AddItem("フォロワー2", "https://randomuser.me/api/portraits/men/7.jpg");
-            likeItems.AddItem("フォロワー3", "https://randomuser.me/api/portraits/men/8.jpg");
-            likeItems.AddItem("フォロワー4", "https://randomuser.me/api/portraits/men/9.jpg");
-            likeItems.AddItem("フォロワー5", "https://randomuser.me/api/portraits/men/10.jpg");
-            LikeList.AddItem(likeItems);
-
-            // Display side list
-            LikeList.ReloadData();
-            LikeList.ExpandItem(null, true);
-
-
-            BlackList.Initialize();
-
-            BlackList.RowSizeStyle = NSTableViewRowSizeStyle.Custom;
-            BlackList.RowHeight = 45;
-
-            var blackItems = new SourceListItem("解除候補一覧");
-            blackItems.AddItem("フォロワー1", "https://randomuser.me/api/portraits/men/11.jpg");
-            blackItems.AddItem("フォロワー2", "https://randomuser.me/api/portraits/men/12.jpg");
-            blackItems.AddItem("フォロワー3", "https://randomuser.me/api/portraits/men/13.jpg");
-            blackItems.AddItem("フォロワー4", "https://randomuser.me/api/portraits/men/14.jpg");
-            blackItems.AddItem("フォロワー5", "https://randomuser.me/api/portraits/men/15.jpg");
-            BlackList.AddItem(blackItems);
-
-            // Display side list
-            BlackList.ReloadData();
-            BlackList.ExpandItem(null, true);
+            if (BlackList != null)
+            {
+                BlackList.DataSource = BlackDataSource;
+                BlackList.Delegate = new MyListDelegate(BlackDataSource);
+            }
         }
+
     }
 }

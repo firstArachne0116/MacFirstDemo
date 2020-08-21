@@ -91,10 +91,25 @@
     <Compile Include="Messages\Message.cs" />
     <Compile Include="Messages\MessageTableDataSource.cs" />
     <Compile Include="Messages\MessageTableDelegate.cs" />
-    <Compile Include="SourceLists\SourceListView.cs" />
-    <Compile Include="SourceLists\SourceListItem.cs" />
-    <Compile Include="SourceLists\SourceListDelegate.cs" />
-    <Compile Include="SourceLists\SourceListDataSource.cs" />
+    <Compile Include="MyList\MyListDelegate.cs" />
+    <Compile Include="MyList\MyListItem.cs" />
+    <Compile Include="MyList\MyListDataSource.cs" />
+    <Compile Include="WhiteListController.cs" />
+    <Compile Include="WhiteListController.designer.cs">
+      <DependentUpon>WhiteListController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FollowDialogController.cs" />
+    <Compile Include="FollowDialogController.designer.cs">
+      <DependentUpon>FollowDialogController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BlackListDialog.cs" />
+    <Compile Include="BlackListDialog.designer.cs">
+      <DependentUpon>BlackListDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutomaticListDialog.cs" />
+    <Compile Include="AutomaticListDialog.designer.cs">
+      <DependentUpon>AutomaticListDialog.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Main.storyboard" />
